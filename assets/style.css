@@ -1,0 +1,80 @@
+/* Global Light Theme */
+.stApp {
+    background-color: #f7f9fc;
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+}
+
+/* Hide default Header and Footer */
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+/* Custom Card Container (Light) */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    /* Soft shadow */
+    border: 1px solid #e1e4e8;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    color: #2c3e50;
+    /* Dark Blue-Gray */
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2980b9;
+    /* Nice Blue */
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e1e4e8;
+}
+
+/* Input Fields overrides (Make them pop on light bg) */
+div.stNumberInput>label {
+    color: #2c3e50 !important;
+    font-weight: 600;
+}
+
+div.stSlider>label {
+    color: #2c3e50 !important;
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.3);
+}
+
+.stButton>button:hover {
+    background-color: #2980b9;
+}
